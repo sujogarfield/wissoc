@@ -495,6 +495,7 @@ nav .fas {
     margin: auto;
     text-align: center;
     padding-top: 30px;
+    min-height: 300px;
 }
 
 .newsletter-one {
@@ -513,6 +514,23 @@ nav .fas {
     line-height: 22px;
     padding: 10px;
     padding-bottom: 10px;
+}
+
+.newsletter-btn {
+    display: block;
+    width: 220px;
+    margin: 10px auto;
+    padding: 12px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.newsletter-btn:hover {
+    background: #444;
 }
 
 /*---- Footer ----*/
